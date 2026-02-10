@@ -1,0 +1,17 @@
+{
+  "name": "bfhl-rest-api",
+  "version": "1.0.0",
+  "description": "Production-ready REST API for BFHL evaluation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
