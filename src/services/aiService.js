@@ -8,7 +8,7 @@ async function getSingleWordAnswer(question) {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey.trim());
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `Answer the following question with ONLY a single word. No punctuation, no explanation, no extra text. Just one word.
 
